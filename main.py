@@ -23,5 +23,5 @@ def encrypt_mif(text):
     return ''.join(final_encrypted)
 
 # Example
-text = input()
-print("Encrypted:", encrypt_mif(text))
+text = input("Enter the message: ")
+print("Encrypted: ", encrypt_mif(text))
